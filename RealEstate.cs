@@ -12,5 +12,8 @@ namespace ConsoleApp
         public int SquareFootage { get; set; }
 
         public int CalculatePricePerSquareFoot() => Price / SquareFootage;
+
+        public int PriceInCents() => Price * 100;
+
     };
 }

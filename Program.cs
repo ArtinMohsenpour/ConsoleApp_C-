@@ -10,3 +10,6 @@ RealEstate elmStreet = new()
 
 var result = elmStreet.CalculatePricePerSquareFoot();
 Console.WriteLine(result);
+
+var priceInCent = elmStreet.PriceInCents();
+Console.WriteLine(priceInCent + " Cents");
